@@ -1,0 +1,107 @@
+
+#contenedor{
+    background-image: url(https://thumbs.dreamstime.com/b/%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF-%CE%B1%CE%BD%CE%B1%CF%83%CE%BA%CF%8C%CF%80%CE%B7%CF%83%CE%B7%CF%82-5186116.jpg);
+    height:600px;
+    width:400px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+i{
+    color:rgb(250, 86, 57);
+    font-size: 40px;
+}
+
+.signos{
+    background-color:rgb(221, 133, 84);
+    height:80px;
+    width:130px;
+    text-align: center;
+    padding:5px;
+    border-radius: 8px;
+    margin:10px 5px 10px 5px;
+    font-size: 30px;
+    border:none;
+}
+
+#signodivision{
+    transform: rotate(120deg);
+}
+
+.ingreseunnumero{
+    margin: 20px 30px 10px 30px;
+}
+.titulo3{
+    background-color: tomato;
+    height:30px;
+    width:300px;
+    border-radius: 8px;
+    margin:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.titulos{
+    background-color: tomato;
+    height:30px;
+    width:350px;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2px auto;
+}
+
+.borrartodo{
+    background-color: tomato;
+    height:50px;
+    width:300px;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2px auto;
+}
+
+.titulos2{
+    background-color: tomato;
+    height:55px;
+    width:300px;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.otracuenta{
+    background-color: tomato;
+    height:30px;
+    width:150px;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px auto;
+    border: none;
+
+}
+
+input{
+    background-color:rgb(221, 133, 84);
+    height:30px;
+    width:200px;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2px auto;
+    text-align: center;
+    margin-bottom: 25px;
+    border:none;
+    
+}
+
+::placeholder{
+    color: black;
+}

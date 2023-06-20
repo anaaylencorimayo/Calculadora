@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <!--link del cdn de la pagina de awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="contenedor">
+
+        <div class="contenedor2"> <br>
+
+        <h3 class="titulo3">CALCULADORA</h3>
+
+        <div class="ingreseunnumero">
+            <input id=valor1 type="number" placeholder="Ingrese un numero">
+            <input id=valor2 type="number" placeholder="Ingrese otro numero">
+        </div>
+
+        <h3 class="titulos2">¿Que tipo de operacion te gustaria realizar?</h3>
+    
+        <table>
+            <tr>
+                <th><button class="signos" onclick="sumar();eleccion()"><i class="fa-solid fa-circle-plus"></i></button></th>
+                <!--cuando se hace onclick en "+" se activan dos funciones, la de suma y de decirme cual opcion elegi-->
+                <th><button class="signos" onclick="multiplicar();eleccion()"><i class="fa-solid fa-circle-xmark"></i></button></th>
+            </tr>
+            <tr>
+                <th><button class="signos"onclick="restar();eleccion()"><i class="fa-solid fa-circle-minus"></i></button></th>
+                <th><button class="signos"onclick="dividir();eleccion()"><i id= "signodivision" class="fa-solid fa-circle-minus"></i></button></th>
+            </tr>
+        </table>
+
+        <h3 class="titulos">El resultado de su <span id="eleccion"></span> es: <span id="resultado"></span></h3>
+        
+        <button class= "otracuenta" onclick="borrartodo()">Hacer otra cuenta</button>
+    </div>
+    
+    </div>
+    <script src="./ejer.js"></script>
+
+    </body>
+    </html>
